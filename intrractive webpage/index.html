@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Webpage</h1>
+        <label for="content-select">Choose content:</label>
+        <select id="content-select" onchange="changeContent()">
+            <option value="default">Select an option</option>
+            <option value="option1">Introduction to HTML</option>
+            <option value="option2">Introduction to CSS</option>
+            <option value="option3">Introduction to JavaScript</option>
+        </select>
+        <div id="content">
+            <p>Select an option from the dropdown menu to see the content.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
